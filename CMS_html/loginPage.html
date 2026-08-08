@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="../assets/Group 2 (1).png">
+    <title>Login | KIORA</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <!-- Header -->
+    <nav class="bg-gray-800">
+        <div class="flex justify-center gap-2 py-3 text-white text-sm">
+            <a class="text-mauve-100">Spesial Prize</a>
+            <a class="text-mauve-100">Inspiration </a>
+            <a class="text-mauve-100">📍Track Packet</a>
+            <a class="text-mauve-100">📍Information</a>
+            <a class="text-mauve-100">Room Design </a>
+        </div>
+    </nav>
+
+    <!-- Login Section -->
+    <section class="grid lg:grid-cols-2 min-h-[850px]">
+
+        <!-- Left Image -->
+        <div>
+
+            <img src="https://images.pexels.com/photos/5805489/pexels-photo-5805489.jpeg"
+                class="w-full h-full object-cover">
+
+        </div>
+
+        <!-- Right Form -->
+        <form class="flex items-center justify-center bg-white">
+
+            <div class="w-[420px]">
+
+                <!-- Email -->
+                <div class="mb-8">
+
+                    <label
+
+                    <label for="email" class="block font-semibold text-xl mb-3">
+                        Input your Email
+                    </label>
+
+                    <input id="email" name="email" type="email" placeholder="Staff@mail.com"
+                        class="w-full border rounded px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500">
+
+                </div>
+
+                <!-- Password -->
+                <div class="mb-8">
+
+                    <label for="password" class="block font-semibold text-xl mb-3">
+                        Password
+                    </label>
+
+                    <div class="relative">
+
+                        <input id="password" name="password" type="password" placeholder="Password"
+                            class="w-full border rounded px-5 py-4 pr-12 outline-none focus:ring-2 focus:ring-blue-500">
+
+                        <i
+                            class="fa-regular fa-eye absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 cursor-pointer"></i>
+
+                    </div>
+
+                </div>
+
+                <!-- Submit -->
+                <input type="submit"
+                    class="mt-4 w-full bg-gray-800 hover:bg-gray-600 transition text-white font-bold py-5 rounded-full text-xl" value="Sign In">
+                </input>
+
+            </div>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100">
+        <!-- Footer Atas -->
+        <div class="max-w-7xl mx-auto px-8 py-12 grid grid-cols-3 gap-12">
+
+            <!-- Tentang -->
+            <div>
+                <h2 class="text-2xl font-bold mb-4">
+                    KIORA
+                </h2>
+                <p class="text-gray-600 leading-7 mb-6">
+                    KIORA menyediakan berbagai furnitur dan dekorasi rumah
+                    dengan desain modern, kualitas terbaik, dan harga yang
+                    terjangkau untuk semua keluarga.
+                </p>
+                <button class="px-6 py-3 border rounded-full font-semibold hover:bg-black hover:text-white transition">
+                    Download App
+                </button>
+            </div>
+
+            <!-- Link -->
+            <div>
+                <h2 class="text-2xl font-bold mb-4">
+                    Tautan
+                </h2>
+                <ul class="space-y-3 text-gray-700">
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Hubungi Kami</a></li>
+                    <li><a href="#">Karier</a></li>
+                    <li><a href="#">Lokasi Toko</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- Bantuan -->
+            <div>
+                <h2 class="text-2xl font-bold mb-4">
+                    Bantuan
+                </h2>
+                <ul class="space-y-3 text-gray-700">
+                    <li><a href="#">Kebijakan Privasi</a></li>
+                    <li><a href="#">Syarat & Ketentuan</a></li>
+                    <li><a href="#">Pengembalian Barang</a></li>
+                    <li><a href="#">Pembayaran</a></li>
+                    <li><a href="#">Pengiriman</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div>
+            <div class="max-w-7xl mx-auto py-6 px-8 flex justify-between text-sm text-gray-600">
+                <p>
+                    © 2026 KIORA. All Rights Reserved.
+                </p>
+                <div class="flex gap-6">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="../assets/Group 2 (1).png">
+    <title>Home Page|KIORA</title>
+</head>
+
+<body class="bg-white">
+    <!-- navbar -->
+    <nav class="bg-gray-800">
+        <div class="flex justify-center gap-2 py-3 text-white text-sm">
+            <a class="text-mauve-100">Spesial Prize</a>
+            <a class="text-mauve-100">Inspirasi </a>
+            <a class="text-mauve-100">Program Perencanaan </a>
+            <a class="text-mauve-100">📍Lacak Pengiriman </a>
+            <a class="text-mauve-100">📍Informasi Toko </a>
+            <a class="text-mauve-100">Desain Ruang Grafis </a>
+        </div>
+    </nav>
+
+    <!-- caraousel -->
+    <section class="mx-10 py-6">
+        <div class="carousel carousel-center items-stretch rounded-2xl space-x-6 w-full">
+
+            <!-- Slide 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="https://images.unsplash.com/photo-1624927637280-f033784c1279?q=80&w=2074&auto=format&fit=crop"
+                    class="w-full h-[600px] object-cover" alt="Slide 1">
+
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 justify-between">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="https://images.unsplash.com/photo-1580307403392-4a0c05de0ecf?q=80&w=2070&auto=format&fit=crop"
+                    class="w-full h-[600px] object-cover" alt="Slide 2">
+
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 justify-between">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="https://images.unsplash.com/photo-1600290601761-34066aa1599d?q=80&w=2070&auto=format&fit=crop"
+                    class="w-full h-[600px] object-cover" alt="Slide 3">
+
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 justify-between">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- logo,search,login -->
+    <header class="bg-white">
+
+        <div class="mx-auto flex items-center gap-6 px-15 py-5">
+
+            <!-- Logo -->
+            <img src="../assets/Group 2 (1).png" alt="Logo" class="h-12">
+
+            <!-- Search -->
+            <form class="flex-1">
+                <div class="flex items-center bg-gray-100 rounded-full px-6 py-3">
+                    <i class="fa-solid fa-magnifying-glass text-xl text-gray-700"></i>
+                    <input type="text" placeholder="Cari..."
+                        class="w-full bg-transparent border-none outline-none focus:outline-none focus:ring-0 focus:border-none ml-5 text-lg">
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <!-- Section Category -->
+    <section class="mx-10 py-5">
+        <!-- Tombol -->
+        <div class="flex gap-3 mb-8">
+            <button class="bg-black text-white px-6 py-3 rounded-full font-semibold">
+                Living Room
+            </button>
+
+            <button class="bg-black text-white px-6 py-3 rounded-full font-semibold">
+                Bedroom
+            </button>
+
+            <button class="bg-black text-white px-6 py-3 rounded-full font-semibold">
+                Dining Room
+            </button>
+
+            <button class="bg-black text-white px-6 py-3 rounded-full font-semibold">
+                Workspace
+            </button>
+
+            <button class="bg-black text-white px-6 py-3 rounded-full font-semibold">
+                Storage
+            </button>
+        </div>
+    </section>
+
+    <!-- Section Product -->
+    <section class="mx-10 py-2">
+
+        <!-- Judul -->
+        <h2 class="text-3xl font-bold mb-8">
+            Selalu ada produk spesial untukmu...
+        </h2>
+
+        <!-- Product Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <!-- Card 1 -->
+            <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=900&auto=format&fit=crop"
+                        class="w-full h-64 object-cover" alt="Kursi Kayu">
+                </figure>
+
+                <div class="p-4">
+                    <h3 class="font-bold text-lg">Kursi Kayu</h3>
+                    <p class="text-gray-500 text-sm">Kursi makan minimalis</p>
+                    <p class="font-bold text-2xl mt-2">Rp1.299.000</p>
+
+                    <h3 class="font-bold text-lg">Stock : 45</h3>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=900&auto=format&fit=crop"
+                        class="w-full h-64 object-cover" alt="Sofa">
+                </figure>
+
+                <div class="p-4">
+                    <h3 class="font-bold text-lg">Sofa Modern</h3>
+                    <p class="text-gray-500 text-sm">Sofa ruang tamu</p>
+                    <p class="font-bold text-2xl mt-2">Rp4.250.000</p>
+
+                    <h3 class="font-bold text-lg">Stock : 45</h3>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=900&auto=format&fit=crop"
+                        class="w-full h-64 object-cover" alt="Lemari">
+                </figure>
+
+                <div class="p-4">
+                    <h3 class="font-bold text-lg">Lemari Pakaian</h3>
+                    <p class="text-gray-500 text-sm">Lemari 3 pintu</p>
+                    <p class="font-bold text-2xl mt-2">Rp3.899.000</p>
+
+                    <h3 class="font-bold text-lg">Stock : 45</h3>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=900&auto=format&fit=crop"
+                        class="w-full h-64 object-cover" alt="Meja Kerja">
+                </figure>
+
+                <div class="p-4">
+                    <h3 class="font-bold text-lg">Meja Kerja</h3>
+                    <p class="text-gray-500 text-sm">Workspace minimalis</p>
+                    <p class="font-bold text-2xl mt-2">Rp2.199.000</p>
+
+                    <h3 class="font-bold text-lg">Stock : 45</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- pagination -->
+    <section class="mx-10 mb-16">
+        <div class="flex justify-center gap-2">
+
+            <button class="px-5 py-2 rounded-full border hover:bg-gray-100">
+                Previous
+            </button>
+
+            <button class="w-10 h-10 rounded-full bg-black text-white">
+                1
+            </button>
+
+            <button class="w-10 h-10 rounded-full border">
+                2
+            </button>
+
+            <button class="w-10 h-10 rounded-full border">
+                3
+            </button>
+
+            <button class="px-5 py-2 rounded-full border hover:bg-gray-100">
+                Next
+            </button>
+
+        </div>
+    </section>
+
+    <!-- sub-info -->
+    <div class="mx-10">
+        <h4 class="text-2xl font-bold mb-1 py-5">KIORA - Solusi rumah nyaman, gaya, dan terjangkau untuk semua</h4>
+        <p>
+            KIORA selalu berkomitmen untuk menciptakan hidup yang lebih baik bagi banyak orang. Sebagai toko
+            furnitur rumah, kami memberikan solusi cerdas, bergaya, namun tetap dengan harga terjangkau sehingga
+            lebih banyak orang dapat membelinya. Mulai dari tempat tidur dan lemari pakaian untuk kamar tidur,
+            hingga sofa yang cozy dan meja kopi stylish untuk ruang keluarga, kami punya semua yang Anda butuhkan
+            untuk menjadikan rumah Anda lebih nyaman.
+        </p>
+        <p class="py-3">
+            Jelajahi koleksi dekorasi rumah kami yang menawan, mulai dari tirai hingga pencahayaan, serta produk
+            musiman yang akan menyempurnakan ruangan Anda. Butuh inspirasi? Cek ide-ide ruangan kami yang telah
+            dikurasi melalui situs KIORA, aplikasi KIORA Indonesia atau langsung di toko KIORA.
+        </p>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-gray-100 mt-16">
+        <!-- Footer Atas -->
+        <div class="max-w-7xl mx-auto px-8 py-12 grid grid-cols-3 gap-12">
+
+            <!-- Tentang -->
+            <div>
+                <h2 class="text-2xl font-bold mb-4">
+                    KIORA
+                </h2>
+                <p class="text-gray-600 leading-7 mb-6">
+                    KIORA menyediakan berbagai furnitur dan dekorasi rumah
+                    dengan desain modern, kualitas terbaik, dan harga yang
+                    terjangkau untuk semua keluarga.
+                </p>
+                <button class="px-6 py-3 border rounded-full font-semibold hover:bg-black hover:text-white transition">
+                    Download App
+                </button>
+            </div>
+
+            <!-- Link -->
+            <div>
+                <h2 class="text-2xl font-bold mb-4">
+                    Tautan
+                </h2>
+                <ul class="space-y-3 text-gray-700">
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Hubungi Kami</a></li>
+                    <li><a href="#">Karier</a></li>
+                    <li><a href="#">Lokasi Toko</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- Bantuan -->
+            <div>
+                <h2 class="text-2xl font-bold mb-4">
+                    Bantuan
+                </h2>
+                <ul class="space-y-3 text-gray-700">
+                    <li><a href="#">Kebijakan Privasi</a></li>
+                    <li><a href="#">Syarat & Ketentuan</a></li>
+                    <li><a href="#">Pengembalian Barang</a></li>
+                    <li><a href="#">Pembayaran</a></li>
+                    <li><a href="#">Pengiriman</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div>
+            <div class="max-w-7xl mx-auto py-6 px-8 flex justify-between text-sm text-gray-600">
+                <p>
+                    © 2026 KIORA. All Rights Reserved.
+                </p>
+                <div class="flex gap-6">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- card description -->
+    <div class="mx-8 py-8">
+        <div class="bg-white rounded-3xl shadow-lg p-6">
+            <div>
+                <div class="rounded-3xl bg-gray-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop"
+                        class="w-full h-[550px] object-cover">
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="flex flex-col mx-5">
+                <h1 class="text-5xl font-bold mt-8">
+                    Kursi Kayu Minimalis
+                </h1>
+                <p class="text-4xl font-bold text-amber-800 mt-8">
+                    Rp1.299.000
+                </p>
+
+                <div class="mt-5">
+                    <p>
+                        <h1 class="font-semibold text-xl">Stock :</h1>
+                        <h1 class="text-gray-500">25</h1>
+                    </p>
+                </div>
+                <!-- Description -->
+                <div class="pb-10 mt-5">
+                    <h2 class="text-3xl font-bold mb-5">
+                        Description
+                    </h2>
+
+                    <div class="bg-gray-50 rounded-2xl">
+
+                        <p class="leading-9 text-gray-600">
+
+                            Kursi kayu minimalis yang dirancang untuk memberikan
+                            kenyamanan sekaligus mempercantik ruangan. Material
+                            kayu solid berkualitas tinggi dengan finishing natural,
+                            cocok digunakan pada ruang tamu, ruang makan maupun
+                            ruang kerja.
+
+                        </p>
+
+                    </div>
+                </div>
+
+                <button
+                    class="mt-10 rounded-full bg-slate-900 text-white py-4 text-lg font-semibold hover:bg-gray-800 transition">
+                    Back to Home
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
