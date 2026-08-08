@@ -76,7 +76,6 @@ export default function Product() {
       <ProductTable
         products={products}
         handleDelete={handleDelete}
-        handleUpload={handleUpload}
       />
     </>
   );

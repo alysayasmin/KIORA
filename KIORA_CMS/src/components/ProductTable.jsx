@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 
-export default function ProductTable({ products, handleDelete, handleUpload }) {
+export default function ProductTable({ products, handleDelete }) {
   return (
     <div className="mx-8 py-10">
       <div className="bg-white rounded-3xl shadow-lg p-6">
